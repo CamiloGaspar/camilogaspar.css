@@ -11,28 +11,28 @@ section {
 }
 
 section.sec1{
-    background: url("../desplazar_cols/bg1.jpg");
+    background: url("../slide_image_hover_effects/bg1.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 section.sec2{
-    background: url("../desplazar_cols/bg2.jpg");
+    background: url("../slide_image_hover_effects/bg2.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 section.sec3{
-    background: url("../desplazar_cols/bg3.jpg");
+    background: url("../slide_image_hover_effects/bg3.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 section.sec4{
-    background: url("../desplazar_cols/bg4.jpg");
+    background: url("../slide_image_hover_effects/bg4.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
