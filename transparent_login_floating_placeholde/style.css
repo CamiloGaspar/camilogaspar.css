@@ -55,7 +55,7 @@ body {
     transition: 0.5s;
 }
 
-.box .inputBox input:focus~label, .box .inputBox input:valid~label {
+.box .inputBox input:focus~label, .box .inputBox input:valid~label, .box .inputBox input:not(:placeholder-shown)~label {
     top: -18px;
     left: 0;
     color: #03a9f4;
