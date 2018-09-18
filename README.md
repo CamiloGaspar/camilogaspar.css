@@ -8,3 +8,4 @@ En el presente proyeto se encuentra diferentes efectos hechos con CSS los cuales
 - [CSS 3D Flipping Card Hover Effect](https://www.youtube.com/watch?v=aTK3vCzjzCo)
 - [Basic CSS Parallax Scrolling Effects](https://www.youtube.com/watch?v=eJfqXsHpRHE)
 - [Pure CSS Content Slider](https://www.youtube.com/watch?v=a7ICxQblYrM&t)
+- [Wrap Text Around a Circle](https://www.youtube.com/watch?v=Gws3C4Phs2k)
