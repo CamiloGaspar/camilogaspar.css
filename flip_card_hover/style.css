@@ -24,7 +24,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000;
+    background: url(../slide_image_hover_effects/bg5.jpg);
+    background-position: center;
+    background-size: cover;
     backface-visibility: hidden;
     transform: rotateX(0deg);
     transition: 0.5s;
