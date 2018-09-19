@@ -3,7 +3,48 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
-    background: hsl(0, 0%, 30%);
+    background: #111;
+}
+
+.arrows {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrows span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animateArrow 2s infinite;
+}
+
+.arrows span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrows span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animateArrow {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translateX(-20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translateX(-20px);
+    }
 }
 
 .card {
@@ -48,7 +89,7 @@ body {
     transition: 0.5s;
 }
 
-.card .back::before{
+.card .back::before {
     content: '';
     position: absolute;
     top: 0;
@@ -73,23 +114,23 @@ body {
     box-sizing: border-box;
 }
 
-.card .back .details h2{
+.card .back .details h2 {
     margin: 0;
     padding: 0;
     font-size: 24px;
     color: #fff;
 }
 
-.card .back .details h2 span{
+.card .back .details h2 span {
     color: #a7a7a7;
     font-size: 16px;
 }
 
-.social-icons{
+.social-icons {
     padding: 10px 0;
 }
 
-.social-icons a{
+.social-icons a {
     display: inline-block;
     width: 36px;
     height: 36px;
@@ -101,10 +142,10 @@ body {
     transition: 0.5s;
 }
 
-.social-icons a .fa{
+.social-icons a .fa {
     line-height: 36px;
 }
 
-.social-icons a:hover{
+.social-icons a:hover {
     background: #e91e63;
 }

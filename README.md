@@ -10,3 +10,5 @@ En el presente proyeto se encuentra diferentes efectos hechos con CSS los cuales
 - [Pure CSS Content Slider](https://www.youtube.com/watch?v=a7ICxQblYrM&t)
 - [Wrap Text Around a Circle](https://www.youtube.com/watch?v=Gws3C4Phs2k)
 - [Responsive navbar](https://www.youtube.com/watch?v=01XCBkE4fxk)
+- [Image Slider Responsive](https://www.youtube.com/watch?v=QBluxJIddNs&t)
+- [Back indicator](https://www.youtube.com/watch?v=U7ACjZpk-jk)
