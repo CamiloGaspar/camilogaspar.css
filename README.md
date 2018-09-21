@@ -12,3 +12,4 @@ En el presente proyeto se encuentra diferentes efectos hechos con CSS los cuales
 - [Responsive navbar](https://www.youtube.com/watch?v=01XCBkE4fxk)
 - [Image Slider Responsive](https://www.youtube.com/watch?v=QBluxJIddNs&t)
 - [Back indicator](https://www.youtube.com/watch?v=U7ACjZpk-jk)
+- [Flip Book Hover](https://www.youtube.com/watch?v=zBR9qBBM9KA&t)
