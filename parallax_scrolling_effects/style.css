@@ -6,8 +6,9 @@ body {
 
 .arrows {
     position: absolute;
-    top: 5%;
+    top: 50%;
     left: 5%;
+    transform: translateY(-50%);
     cursor: pointer;
     z-index: 10;
 }
