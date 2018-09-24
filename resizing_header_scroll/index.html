@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resizing Header on Scroll</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo"></div>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="sec1">
+        <div class="arrows" onclick="window.location.href='../index.html'">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+    <section class="content">
+        <h1>¿Qué es Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe velit, aliquam quo voluptas consectetur nam
+            perferendis vel beatae nesciunt cupiditate quidem quaerat nisi. Ex eum nesciunt incidunt earum sed
+            doloremque dignissimos. Veniam illo nulla ipsa iure, ut voluptate atque, hic doloribus inventore ratione
+            itaque, assumenda quae neque vero nobis reprehenderit quaerat. Iure tempora consequuntur, quae similique
+            distinctio tempore harum aut laborum eveniet voluptatibus quo voluptatum incidunt enim perferendis ad
+            adipisci explicabo maxime atque voluptas, qui consectetur autem rerum natus neque? Cupiditate est ratione
+            debitis saepe tempora ab mollitia, facere sed expedita harum hic possimus voluptatibus iure nesciunt
+            voluptatum sunt iste.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe velit, aliquam quo voluptas consectetur nam
+            perferendis vel beatae nesciunt cupiditate quidem quaerat nisi. Ex eum nesciunt incidunt earum sed
+            doloremque dignissimos. Veniam illo nulla ipsa iure, ut voluptate atque, hic doloribus inventore ratione
+            itaque, assumenda quae neque vero nobis reprehenderit quaerat. Iure tempora consequuntur, quae similique
+            distinctio tempore harum aut laborum eveniet voluptatibus quo voluptatum incidunt enim perferendis ad
+            adipisci explicabo maxime atque voluptas, qui consectetur autem rerum natus neque? Cupiditate est ratione
+            debitis saepe tempora ab mollitia, facere sed expedita harum hic possimus voluptatibus iure nesciunt
+            voluptatum sunt iste.</p>
+    </section>
+    <section class="sec2"></section>
+    <section class="content">
+        <h1>¿Qué es Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe velit, aliquam quo voluptas consectetur nam
+            perferendis vel beatae nesciunt cupiditate quidem quaerat nisi. Ex eum nesciunt incidunt earum sed
+            doloremque dignissimos. Veniam illo nulla ipsa iure, ut voluptate atque, hic doloribus inventore ratione
+            itaque, assumenda quae neque vero nobis reprehenderit quaerat. Iure tempora consequuntur, quae similique
+            distinctio tempore harum aut laborum eveniet voluptatibus quo voluptatum incidunt enim perferendis ad
+            adipisci explicabo maxime atque voluptas, qui consectetur autem rerum natus neque? Cupiditate est ratione
+            debitis saepe tempora ab mollitia, facere sed expedita harum hic possimus voluptatibus iure nesciunt
+            voluptatum sunt iste.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe velit, aliquam quo voluptas consectetur nam
+            perferendis vel beatae nesciunt cupiditate quidem quaerat nisi. Ex eum nesciunt incidunt earum sed
+            doloremque dignissimos. Veniam illo nulla ipsa iure, ut voluptate atque, hic doloribus inventore ratione
+            itaque, assumenda quae neque vero nobis reprehenderit quaerat. Iure tempora consequuntur, quae similique
+            distinctio tempore harum aut laborum eveniet voluptatibus quo voluptatum incidunt enim perferendis ad
+            adipisci explicabo maxime atque voluptas, qui consectetur autem rerum natus neque? Cupiditate est ratione
+            debitis saepe tempora ab mollitia, facere sed expedita harum hic possimus voluptatibus iure nesciunt
+            voluptatum sunt iste.</p>
+    </section>
+    <section class="sec3"></section>
+</body>
+
+</html>
