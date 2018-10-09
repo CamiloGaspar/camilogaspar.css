@@ -103,6 +103,10 @@ body {
     font-size: 12px;
 }
 
+.box .inputBox input:focus:invalid~label {
+    color: #f40303;
+}
+
 .box input[type="submit"] {
     background: transparent;
     border: none;
