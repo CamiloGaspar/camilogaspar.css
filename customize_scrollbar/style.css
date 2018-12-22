@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f1f1f1;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background: url(../slide_image_hover_effects/bg1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    padding: 20px 40px;
+    text-align: justify;
+}
+
+::-webkit-scrollbar{
+    background: #ddd;
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 10px #00000070;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(125deg, #3498db, #34495e);
+    border-radius: 10px;
+}
