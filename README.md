@@ -16,3 +16,4 @@ En el presente proyeto se encuentra diferentes efectos hechos con CSS los cuales
 - [Search Box](https://www.youtube.com/watch?v=v1PeTDrw6OY&list=LLEicwiiqCVqC9enYgcKQkMw)
 - [Customize Scrollbar](https://www.youtube.com/watch?v=PIhW1UYrFx0)
 - [Floating Search Bar](https://www.youtube.com/watch?v=1UtGc98pxgA)
+- [Reveal Elements On Scroll](https://www.youtube.com/watch?v=yGqDZVri-tg)
