@@ -17,3 +17,4 @@ En el presente proyeto se encuentra diferentes efectos hechos con CSS los cuales
 - [Customize Scrollbar](https://www.youtube.com/watch?v=PIhW1UYrFx0)
 - [Floating Search Bar](https://www.youtube.com/watch?v=1UtGc98pxgA)
 - [Reveal Elements On Scroll](https://www.youtube.com/watch?v=yGqDZVri-tg)
+- [Creative Product Card UI Design](https://www.youtube.com/watch?v=jUByQLfakJ8)
